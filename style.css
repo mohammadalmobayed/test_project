@@ -17,6 +17,8 @@ html{
                                                  
 .profile{
     margin-right: 15%;
+    display: block;
+    width: 90%;
   
 }
 .home{
@@ -46,6 +48,7 @@ hr{
     background-position: center;
 }
 nav{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
