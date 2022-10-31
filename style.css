@@ -27,6 +27,15 @@ hr{
     width: 40%;
     
 }
+.button{
+    border: 0 solid rgb(20, 11, 11) ;
+    border-radius: 20%;
+    color: rgb(16, 15, 15);
+    background-color: #3D6582;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
 
 
 .continer{
@@ -189,12 +198,17 @@ h4{
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
     border-radius: 10px;
-    /* padding: 25px; */
     margin:15px ;
     transition: .5s ease;
 }
 .card:hover{
     transform: scale(1.1);
+}
+img{
+    border-radius: 50%;
+    width: 100%;
+    
+    
 }
 .icon{
     color: black;
@@ -287,5 +301,8 @@ li{
         align-items: center;
         padding: 14px 0;
         height: 100px;
+    }
+    .home h3{
+        font-size: 30px;
     }
 }
